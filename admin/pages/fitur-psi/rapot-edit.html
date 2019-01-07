@@ -33,7 +33,7 @@
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center">
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="#" class="nav-link">Pendaftaran
             </a>
           </li>
@@ -287,49 +287,66 @@
         <div class="content-wrapper">
           
           <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
-                <div class="card">
-                    <div class="card-body">
+              <div class="col-md-6 grid-margin stretch-card">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title">Edit Rapot Siswa (Jojo Suherman)</h4>
+                          <hr/>
 
-                        <h4 class="card-title">Struktur Kelas</h4>
-                        <p class="card-description">
-                            <br/><br/> <span class="d-block d-md-flex align-items-center">
-                                
-                            </span>
-                        </p>
-                        <hr/><br/>
+                          <h4 class="card-title">Semester</h4>
+                          <div class="form-group">
+                              <input type="number" class="form-control" value="1" placeholder="Masukkan Nama Siswa"/>
+                          </div><br/>
 
-                        <div class="table-responsive">
-                          <table class="table table-striped">
-                            <thead>
-                              <th>#</th>
-                              <th>Nama Kelas</th>
-                              <th>Opsi</th>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td class="py-1">1</td>
-                                <td>Kelas 1 - Anggrek</td>
-                                <td><a href="strukturkelas-edit.html">Ubah</a> | <a href="#">Hapus</a></td>
-                              </tr>
-                              <tr>
-                                <td class="py-1">2</td>
-                                <td>Kelas 2 - Melati</td>
-                                <td><a href="strukturkelas-edit.html">Ubah</a> | <a href="#">Hapus</a></td>
-                              </tr>
-                              <tr>
-                                <td class="py-1">3</td>
-                                <td>Kelas 3 - Mawar</td>
-                                <td><a href="strukturkelas-edit.html">Ubah</a> | <a href="#">Hapus</a></td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                          <h4 class="card-title">Tugas 1</h4>
+                          <div class="form-group">
+                              <input type="number" class="form-control" value="72" placeholder="Masukkan Nama Wali Murid"/>
+                          </div><br/>
 
-                    </div>
-                </div>
+                          <h4 class="card-title">Tugas 2</h4>
+                          <div class="form-group">
+                              <input type="number" class="form-control" value="85" placeholder="Masukkan Nomor Telepon"/>
+                          </div><br/>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-6 d-flex align-items-stretch grid-margin">
+                  <div class="row flex-grow">
+                      <div class="col-12">
+                          <div class="card">
+                              <div class="card-body">
+
+                                  <h4 class="card-title">Tugas 3</h4>
+								  <div class="form-group">
+									  <input type="number" class="form-control" value="78" placeholder="Masukkan Nama Siswa"/>
+								  </div><br/>
+
+								  <h4 class="card-title">UTS</h4>
+								  <div class="form-group">
+									  <input type="number" class="form-control" value="77" placeholder="Masukkan Nama Wali Murid"/>
+								  </div><br/>
+								  
+								  <h4 class="card-title">UAS</h4>
+								  <div class="form-group">
+									  <input type="number" class="form-control" value="81" placeholder="Masukkan Nama Siswa"/>
+								  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
+                  <div class="card">
+                      <div class="card-body">
+                        <button class="btn btn-success mr-2" type="submit">Simpan Perubahan</button>
+                        <a class="btn btn-light" href="{{ route('contact.index') }}">Batal</a>
+                      </div>
+                  </div>
+              </div>  
             </div>
-        </div>
 
         </div>
         <!-- content-wrapper ends -->
