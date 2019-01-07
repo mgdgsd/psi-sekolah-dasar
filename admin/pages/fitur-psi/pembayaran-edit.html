@@ -35,10 +35,9 @@
         <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
           <li class="nav-item">
             <a href="#" class="nav-link">Pendaftaran
-              <span class="badge badge-primary ml-1">New</span>
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="mdi mdi-elevation-rise"></i>Statistik Penggunaan</a>
           </li>
@@ -287,68 +286,52 @@
       <div class="main-panel">
         <div class="content-wrapper">
           
-            <div class="row">
-                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
-                      <div class="card">
-                          <div class="card-body">
-                              <h4 class="card-title">Jadwal Pelajaran</h4>
-                              <p class="card-description">
-                                  Data jadwal pelajaran setiap kelas<br/><br/> <span class="d-block d-md-flex align-items-center">
-                                      <a class="btn btn-inverse-primary btn-rounded ml-auto d-none d-md-block" href="jadwalpelajaran-add.html">Tambah Jadwal Pelajaran</a>
-                                  </span>
-                              </p>
-                              <hr/>
+          <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 grid-margin stretch-card">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-title">Edit Data Pembayaran</h4>
+                          <br/><span class="d-block d-md-flex align-items-center">
+                              <a class="btn btn-inverse-primary btn-rounded ml-auto d-none d-md-block" href="pembayaran-list.html">Kembali</a>
+                          </span>
+                          <hr/>
 
-                              <div class="fluid-container">
-                                  <div class="row"> 
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 grid-margin stretch-card">
-                                        <div class="card">
-                                            <div class="card-body img-thumbnail">
-                                                <div class="clearfix">
-                                                    <h3 class="text-dark font-weight-semibold mr-2 mb-0 no-wrap">Kelas 1 A</h3>
-                                                    <center>
-                                                        <p class="mt-3 mb-0"><strong>Senin:</strong> Penjaskes, Bahasa Indonesia, Ilmu Pengetahuan Alam</p>
-                                                        <p class="mt-3 mb-0"><strong>Selasa:</strong> Bahasa Inggris, Seni Budaya, Matematika</p>
-                                                        <p class="mt-3 mb-0"><strong>Rabu:</strong> Matematika, Pendidikan Agama, Pendidikan Kewarganegaraan</p>
-                                                        <p class="mt-3 mb-0"><strong>Kamis:</strong> Ilmu Pengetahuan Alam, Bahasa Inggris, Bahasa Jawa</p>
-                                                        <p class="mt-3 mb-0"><strong>Jum'at:</strong> Teknologi Informasi dan Komputer, Ilmu Pengetahuan Sosial</p>
-                                                        <p class="mt-3 mb-0"><strong>Sabtu:</strong> Bahasa Indonesia, Ilmu Pengetahuan Sosial, Ekstrakulikuler</p>
-                                                        <br/>
+                          <h4 class="card-title">Nama Siswa</h4>
+                          <div class="form-group">
+                              <input type="text" class="form-control" value="Adi Nurhadi Suryajana" placeholder="Masukkan Nama Siswa"/>
+                          </div><br/>
 
-                                                        <a class="btn btn-inverse-primary btn-rounded mb-0" href="jadwalpelajaran-edit.html"><i class="mdi mdi-pencil"></i></a>
-                                                        <button type="button" class="btn btn-inverse-primary btn-rounded mb-0"><i class="mdi mdi-delete"></i></button>
-                                                    </center>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 grid-margin stretch-card">
-                                        <div class="card">
-                                            <div class="card-body img-thumbnail">
-                                                <div class="clearfix">
-                                                    <h3 class="text-dark font-weight-semibold mr-2 mb-0 no-wrap">Kelas 1 B</h3>
-                                                    <center>
-                                                        <p class="mt-3 mb-0"><strong>Senin:</strong> Penjaskes, Bahasa Indonesia, Ilmu Pengetahuan Alam</p>
-                                                        <p class="mt-3 mb-0"><strong>Selasa:</strong> Bahasa Inggris, Seni Budaya, Matematika</p>
-                                                        <p class="mt-3 mb-0"><strong>Rabu:</strong> Matematika, Pendidikan Agama, Pendidikan Kewarganegaraan</p>
-                                                        <p class="mt-3 mb-0"><strong>Kamis:</strong> Ilmu Pengetahuan Alam, Bahasa Inggris, Bahasa Jawa</p>
-                                                        <p class="mt-3 mb-0"><strong>Jum'at:</strong> Teknologi Informasi dan Komputer, Ilmu Pengetahuan Sosial</p>
-                                                        <p class="mt-3 mb-0"><strong>Sabtu:</strong> Bahasa Indonesia, Ilmu Pengetahuan Sosial, Ekstrakulikuler</p>
-                                                        <br/>
+                          <h4 class="card-title">Jumlah</h4>
+                          <div class="form-group">
+                              <input type="number" class="form-control" value="200000" placeholder="Masukkan Nominal Pembayaran"/>
+                          </div><br/>
 
-                                                        <a class="btn btn-inverse-primary btn-rounded mb-0" href="jadwalpelajaran-edit.html"><i class="mdi mdi-pencil"></i></a>
-                                                        <button type="button" class="btn btn-inverse-primary btn-rounded mb-0"><i class="mdi mdi-delete"></i></button>
-                                                    </center>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                          <h4 class="card-title">Status</h4>
+                          <div class="col-md-12">
+                              <div class="form-group row">
+                                  <div class="col-sm-4">
+                                      <div class="form-radio">
+                                          <label class="form-check-label">
+                                              <input type="radio" name="is_published" value="1" class="form-check-input" checked/>
+                                              Lunas <i class="input-helper"></i>
+                                          </label>
+                                      </div>
+                                      <div class="form-radio">
+                                          <label class="form-check-label">
+                                              <input type="radio" name="is_published" value="1" class="form-check-input"/>
+                                              Belum Lunas <i class="input-helper"></i>
+                                          </label>
+                                      </div>
                                   </div>
                               </div>
                           </div>
+
+                          <button class="btn btn-success mr-2" type="submit">Simpan Perubahan</button>
+                          <a class="btn btn-light" href="pembayaran-list.html">Batal</a>
+
                       </div>
                   </div>
-            </div>
+              </div>
 
         </div>
         <!-- content-wrapper ends -->
